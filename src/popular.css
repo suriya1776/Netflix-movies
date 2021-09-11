@@ -1,0 +1,84 @@
+.title {
+  font-size: var(--font-size3);
+
+  color: var(--color-text);
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.sub__row {
+  display: flex;
+
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.sub__row::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.row {
+  margin-right: 0.75rem;
+}
+.row__name {
+  font-size: var(--font-size5);
+
+  color: var(--color-text);
+  text-align: center;
+  padding-top: 0.375rem;
+}
+.main__row {
+  padding: 0 2.25rem;
+  margin-bottom: 2.4rem;
+  position: relative;
+}
+
+.chevron__row {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 5px;
+  height: 100%;
+  width: 6rem;
+  padding-left: 4rem;
+  display: flex;
+
+  align-items: center;
+  background-image: linear-gradient(
+    to left,
+    var(--color-bg) 39%,
+    transparent 93%
+  );
+}
+
+.chevron__rowout {
+  visibility: hidden;
+}
+
+.chevron__row:hover {
+  cursor: pointer;
+}
+
+.chevron__row1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  height: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    var(--color-bg) 39%,
+    transparent 93%
+  );
+}
+.chevron__row1:hover {
+  cursor: pointer;
+}
+.chevron__rowin {
+  visibility: hidden;
+}
+.row:hover {
+  cursor: pointer;
+}

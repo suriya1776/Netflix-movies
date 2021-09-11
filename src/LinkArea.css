@@ -1,0 +1,61 @@
+.linkarea {
+  color: var(--color-link);
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 1.8rem;
+  padding-bottom: 1.25rem;
+  position: relative;
+}
+.linkarea_h {
+  margin-bottom: 1.8rem;
+}
+.linkarea_li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0;
+  width: 70%;
+}
+.linkarea_li > div > li {
+  margin-bottom: 1rem;
+  font-size: var(--font-size8);
+  margin-left: 0;
+}
+.button_d :hover {
+  cursor: pointer;
+}
+.button_d {
+  all: unset;
+  margin-top: 1.25rem;
+  width: 7.56rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: var(--color-link);
+  border: #333 solid 0.5px;
+  font-size: var(--font-size8);
+  justify-content: space-evenly;
+}
+.button_in {
+  display: flex;
+  align-items: center;
+}
+.button_drop {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 22%;
+  width: 7.56rem;
+  border: #333 solid 0.5px;
+}
+.button_drop > li {
+  height: 1.2rem;
+  text-align: center;
+}
+.button_drop > li:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.button_dropn {
+  display: none;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: helvatica;
+  src: url(./webviews/FreeSans.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: helvatica;
+}
+li {
+  list-style: none;
+}
+
+:root {
+  --font-size1: 0.85rem;
+
+  --font-size2: 2.75rem;
+  --font-weight2: 1000;
+  --font-size3: 1.18rem;
+  --font-size4: 1.25rem;
+  --font-size5: 1rem;
+  --font-size6: 2rem;
+  --font-size7: 1.5rem;
+  --font-size8: 0.81rem;
+  --color-button: #e50914;
+  --color-bg: #181818;
+  --color-text: white;
+  --color-link: #757575;
+}
+body {
+  background-color: var(--color-bg);
+}
+
+a {
+  text-decoration: none;
+}

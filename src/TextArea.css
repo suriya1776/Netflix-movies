@@ -1,0 +1,18 @@
+.text__area {
+  padding: 2.25rem;
+  color: var(--color-text);
+  width: 55%;
+}
+
+.text__head {
+  font-size: var(--font-size2);
+  font-weight: var(--font-weight2);
+  letter-spacing: 0.1rem;
+  line-height: 3.31rem;
+}
+
+.text__para {
+  padding-top: 0.75rem;
+  padding-bottom: 1.18rem;
+  font-size: var(--font-size3);
+}

@@ -1,0 +1,56 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  background-color: black;
+}
+
+.header__logo {
+  width: 10.25rem;
+  height: 2.81rem;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 2.4rem;
+}
+.header__buttons > p {
+  font-size: var(--font-size1);
+  letter-spacing: 0.0000001rem;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.button__joinnow {
+  all: unset;
+  background-color: var(--color-button);
+  width: 7rem;
+  height: 2.06rem;
+  color: white;
+  text-align: center;
+  font-size: var(--font-size1);
+  margin-right: 0.5rem;
+  border-radius: 0.1rem;
+}
+
+.button__signin {
+  all: unset;
+  text-align: center;
+  color: white;
+  width: 5.6rem;
+  height: 2.06rem;
+  background-color: black;
+  border-radius: 0.1rem;
+  font-size: var(--font-size1);
+  border: 0.8px solid rgb(248, 228, 228);
+}
+
+.button__signin,
+.button__joinnow:hover {
+  cursor: pointer;
+}
